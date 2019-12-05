@@ -39,7 +39,7 @@ Milletari等人2016年提出，加入残差连接，将2D操作替换为3D操作
 
     <div align="center">![Unet](./image/2019-12-02-23-01-58.png) Vnet网络结构 </div>
 ### DenseNet
-Jeugo等人2017年提出，使用了编码解码框架
+Jeugo等人2017年提出，使用了编码解码框架,但是通过网络搜索发现,denseNet是一个分类网络啊,并不是分割的网络啊,这是为啥呢!!
 
 ### DeepLabV3+
 2018年，state of the art 在VOC2012上。在deeplabV3的基础加入空洞卷积,编码部分通过收集不同尺度的空洞卷积和金字塔池化加入了多尺度语义信息
