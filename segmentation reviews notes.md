@@ -1,4 +1,4 @@
-- [语义分割论文笔记](#%e8%af%ad%e4%b9%89%e5%88%86%e5%89%b2%e8%ae%ba%e6%96%87%e7%ac%94%e8%ae%b0)
+- [语义分割综述论文笔记](#%e8%af%ad%e4%b9%89%e5%88%86%e5%89%b2%e7%bb%bc%e8%bf%b0%e8%ae%ba%e6%96%87%e7%ac%94%e8%ae%b0)
 - [Deep Semantic Segmentation of Natural and Medical Images: A Review](#deep-semantic-segmentation-of-natural-and-medical-images-a-review)
     - [FCN](#fcn)
   - [Encoder-decoder编码解码网络](#encoder-decoder%e7%bc%96%e7%a0%81%e8%a7%a3%e7%a0%81%e7%bd%91%e7%bb%9c)
@@ -17,7 +17,7 @@
   - [优化方法上的提升](#%e4%bc%98%e5%8c%96%e6%96%b9%e6%b3%95%e4%b8%8a%e7%9a%84%e6%8f%90%e5%8d%87)
   - [基于重叠度量的损失函数](#%e5%9f%ba%e4%ba%8e%e9%87%8d%e5%8f%a0%e5%ba%a6%e9%87%8f%e7%9a%84%e6%8d%9f%e5%a4%b1%e5%87%bd%e6%95%b0)
 - [总结](#%e6%80%bb%e7%bb%93)
-# 语义分割论文笔记
+# 语义分割综述论文笔记
 # Deep Semantic Segmentation of Natural and Medical Images: A Review
 
 一篇自然和医学图像的深度学习语义分割综述，分为6个方向:深度学习框架、基于数据综合、基于损失函数、基于序列模型、弱监督、多任务方法。
