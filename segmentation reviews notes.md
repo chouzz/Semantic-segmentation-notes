@@ -70,7 +70,7 @@ GANs(generative adversarial networks)
 加入多级注意力结构分割MRI图像（Multi-scale guided attention for medical image segmentation,2019)
 
 ## 基于图像分割的对抗训练
-基于对抗训练的CT图像 (PAN:Projective adversarial network for medical image segmentation，2019)
+基于对抗训练的CT图像 (PAN:Projective adversarial network for medical image segmentation，2019)  
 将生成对抗训练用于视网膜图像(Retinal vessel segmentation in fundoscopic images with generative adversarial networks, 2017)
 基于生成对抗网络的FCN分割MRI图像(SegAN: Adversarial network with multi-scale L1 loss for medical image segmentation, 2018)
 
