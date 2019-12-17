@@ -18,7 +18,7 @@
 
 训练损失函数和验证损失函数
 </center>
-而对于训练精度和验证精度其实和loss是差不多的,有可能训练批数还不太够,这里只训练了200个epochs   
+
 <center>
 <img src=./image/Unet-dataset1-acc_val_acc.png alt="训练精度和验证精度"  width="80%" height="80%" />        
 
@@ -26,25 +26,49 @@
 </center>
 
 ## IoU度量标准
-平均IoU为0.211
->class 00: #TP=246734, #FP= 38910, #FN=173106, IoU=0.538  
-class 01: #TP=566080, #FP=561078, #FN=160236, IoU=0.440  
-class 02: #TP=  2296, #FP= 15739, #FN=27665, IoU=0.050  
-class 03: #TP=267033, #FP=  8703, #FN=600431, IoU=0.305  
-class 04: #TP= 32572, #FP=144479, #FN=110899, IoU=0.113  
-class 05: #TP=189094, #FP=214809, #FN=67965, IoU=0.401  
-class 06: #TP=  6107, #FP= 28735, #FN=23836, IoU=0.104  
-class 07: #TP=  8894, #FP=  9831, #FN=23309, IoU=0.212  
-class 08: #TP= 49335, #FP= 26853, #FN=126864, IoU=0.243  
-class 09: #TP=  1323, #FP=  5656, #FN=18705, IoU=0.052  
-class 10: #TP=     9, #FP=  2790, #FN=11597, IoU=0.001  
-class 11: #TP= 33984, #FP=348812, #FN=61782, IoU=0.076  
+在从训练集中划分出来56张图片的测试集进行测试,结果如下:
+>class 00: #TP=207088, #FP= 28336, #FN=212752, IoU=0.462  
+class 01: #TP=574718, #FP=671774, #FN=151598, IoU=0.411  
+class 02: #TP=  2538, #FP= 18990, #FN=27423, IoU=0.052  
+class 03: #TP=269185, #FP=  9602, #FN=598279, IoU=0.307  
+class 04: #TP= 42340, #FP=152351, #FN=101131, IoU=0.143  
+class 05: #TP=146064, #FP=106900, #FN=110995, IoU=0.401  
+class 06: #TP=  5212, #FP= 23990, #FN=24731, IoU=0.097  
+class 07: #TP=  9601, #FP= 29449, #FN=22602, IoU=0.156  
+class 08: #TP= 47198, #FP= 31821, #FN=129001, IoU=0.227  
+class 09: #TP=  3051, #FP= 19812, #FN=16977, IoU=0.077  
+class 10: #TP=   546, #FP=  4375, #FN=11060, IoU=0.034  
+class 11: #TP= 45427, #FP=359488, #FN=50339, IoU=0.100  
 \_________________  
-Mean IoU: 0.211  
+Mean IoU: 0.206  
+
+对数据集中101张测试集进行测试,结果如下:
+>class 00: #TP=   992, #FP=   451, #FN=805370, IoU=0.001  
+class 01: #TP=2059859, #FP=1810386, #FN=198984, IoU=0.506  
+class 02: #TP=  1701, #FP= 24656, #FN=33821, IoU=0.028  
+class 03: #TP= 33586, #FP=  2663, #FN=658302, IoU=0.048  
+class 04: #TP= 34269, #FP= 53171, #FN=271791, IoU=0.095  
+class 05: #TP=151103, #FP=212529, #FN=203166, IoU=0.267  
+class 06: #TP=  5232, #FP= 32890, #FN=86787, IoU=0.042  
+class 07: #TP=     0, #FP= 12409, #FN=50173, IoU=0.000  
+class 08: #TP= 43352, #FP=108597, #FN=28296, IoU=0.241  
+class 09: #TP= 30738, #FP=106011, #FN=28190, IoU=0.186  
+class 10: #TP= 17216, #FP=  1832, #FN=230801, IoU=0.069  
+class 11: #TP= 20307, #FP=303826, #FN=73740, IoU=0.051  
+\_________________  
+Mean IoU: 0.128  
 
 ## 实验效果
+从训练集划分出的测试集效果如下:
 <center>
 <img src=./image/Unet-dataset1-seg_example_0.png alt="分割示例0"  />        
 <img src=./image/Unet-dataset1-seg_example_1.png alt="分割示例1"  />  
 <img src=./image/Unet-dataset1-seg_example_2.png alt="分割示例2"  />  
+</center>
+
+对数据集中的测试集效果如下所示:
+<center>
+<img src=./image/Unet-dataset1-test-seg_example_0.png alt="分割示例0"  />        
+<img src=./image/Unet-dataset1-test-seg_example_1.png alt="分割示例1"  />  
+<img src=./image/Unet-dataset1-test-seg_example_2.png alt="分割示例2"  />  
 </center>
