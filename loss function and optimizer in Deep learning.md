@@ -1,3 +1,8 @@
+- [深度学习中的损失函数和优化器(loss function and optimizer)](#%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%ad%e7%9a%84%e6%8d%9f%e5%a4%b1%e5%87%bd%e6%95%b0%e5%92%8c%e4%bc%98%e5%8c%96%e5%99%a8loss-function-and-optimizer)
+- [损失函数和优化器](#%e6%8d%9f%e5%a4%b1%e5%87%bd%e6%95%b0%e5%92%8c%e4%bc%98%e5%8c%96%e5%99%a8)
+- [常见的损失函数](#%e5%b8%b8%e8%a7%81%e7%9a%84%e6%8d%9f%e5%a4%b1%e5%87%bd%e6%95%b0)
+- [常见的优化器函数](#%e5%b8%b8%e8%a7%81%e7%9a%84%e4%bc%98%e5%8c%96%e5%99%a8%e5%87%bd%e6%95%b0)
+  - [相关链接](#%e7%9b%b8%e5%85%b3%e9%93%be%e6%8e%a5)
 # 深度学习中的损失函数和优化器(loss function and optimizer)
 
 # 损失函数和优化器
