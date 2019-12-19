@@ -19,9 +19,9 @@
 # 金字塔池化模块
 
 <center>
-<img src=./image/2019-12-17-17-02-45.png  alt="金字塔池化模块"  width="100%" height="100%" />    
+<img src='./image/PSP network architecture.png'  alt="PSPnet 架构"  width="100%" height="100%" />    
 
-金字塔池化模块
+PSPnet 架构
 </center>
 
 如上图所示，该图为PSPnet的整体结构，其基于FCN和空洞卷积，并且使用了包含空洞卷积的ResNet预训练权重。其中图(c)即为空间金字塔池化模块，空间金字塔模块来源于金字塔匹配算法，用于在不同分辨率上统计图像特征点分布，获取图像的局部信息。该模块主要分为4个部分，最上方红色为全局池化后的单个输出，其下方的level将特征图分成不同子区域和形式，代表了不同的位置，每个level包含不同大小的特征图，后面接了1x1大小的卷积,将尺寸减小到原始维度的1/N，然后直接使用双线性插值上采样恢复到原始图像大小，最后将不同level的特征图进行融合，再使用卷积层进行分类。上图中每个level中使用不同的卷积核，分别为1x1，2x2，3x3和6x6，不同大小的池化模块用于收集不同level的信息。
@@ -48,8 +48,8 @@
 PASCAL VOC数据的结果如下图所示：
 
 <center>
-<img src=./image/2019-12-17-18-14-13.png  alt="PASCAL VOC2012测试集结果"  width="100%" height="100%" />    
+<img src='./image/PSPne results on VOC2012.png'  alt="PSPnet在PASCAL VOC2012测试集结果"  width="100%" height="100%" />    
 
-PASCAL VOC2012测试集结果
+PSPnet在PASCAL VOC2012测试集结果
 </center>
 
