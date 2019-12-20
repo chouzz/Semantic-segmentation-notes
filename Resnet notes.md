@@ -22,7 +22,7 @@ Fig.1 深层网络误差更大的现象
 是否越深的网络学习的就会更好？如上图所示，作者在 CIFAR-10 数据集上进行实验，发现 56 层的网络无论是在训练误差还是在测试误差上效果都比 20 层网络的效果差，这说明并不是越深的网络效果就会越好，因为深层网络带来梯度消失或者爆炸问题，导致深层网络的误差加大，一些现在已有的常用的方法是使用正则化初始化和中间初始化来解决，而当随着网络层数的加深，精度达到饱和的时候，继续进行训练精度反而快速下降，这种现象并不是因为过拟合导致的，论文给出猜想，添加一层额外的恒等映射，如下图所示：
 
 <center>
-<img src=./image/ResNet提出的剩余/残差学习模块.png alt="ResNet提出的剩余/残差学习模块"  width="60%" height="60%" />
+<img src=./image/残差学习模块.png alt="ResNet提出的剩余/残差学习模块"  width="60%" height="60%" />
 
 Fig.2 ResNet 提出的剩余/残差学习模块
 
@@ -45,7 +45,7 @@ Fig.2 ResNet 提出的剩余/残差学习模块
 <center>
 <img src=./image/vgg_plain_resnet.png alt="vgg19，plain34和ResNet34网络结构"  width="60%" height="60%" />
 
-Fig.3 ResNet 提出的剩余/残差学习模块
+Fig.3 vgg19，plain34和ResNet34网络结构
 
 </center>
 
