@@ -34,3 +34,6 @@ AlexNet结构
 
 ### 其他
 采用了Dropout
+
+值得参考链接：
+https://www.jianshu.com/p/182073af7d95
