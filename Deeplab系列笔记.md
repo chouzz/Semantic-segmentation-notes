@@ -11,15 +11,19 @@ DeepLabv3：通过图像级功能扩展了ASPP模块，以捕获更长距离的�
 
 DeepLabv3+：将DeepLabv3扩展为包括一个简单而有效的解码器模块，以优化分割结果，尤其是沿对象边界的分割结果。此外，在这种编码器-解码器结构中，可以通过空洞卷积来任意权衡提取的编码器特征的分辨率，以权衡精度和运行时间。
 
-## DeeplabV1:Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs
-
+综合参考链接：
+https://github.com/tensorflow/models/tree/master/research/deeplab
 https://zhuanlan.zhihu.com/p/37124598
 https://zhuanlan.zhihu.com/p/68531147
+https://blog.csdn.net/c_daofeng/article/details/90516691
+
+## DeeplabV1:Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs
+
 
 
 ## DeeplabV2:
 
-s
+
 ## DeeplabV3:
 
 
@@ -30,7 +34,7 @@ s
 
 # 参考链接
 
-https://github.com/tensorflow/models/tree/master/research/deeplab
+
 
 
 使 ResNet 在保持参数量不变、每个阶段的卷积层视野不变的前提下，靠后的卷积层也可保持较大的 feature maps 尺寸从而有利于对小目标的检测，提高模型整体性能
